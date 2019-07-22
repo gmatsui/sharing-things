@@ -50,7 +50,7 @@ public class HttpEndpointVerticle extends AbstractVerticle {
         LoginRouteHandler loginRouteHandler = new LoginRouteHandler(oauth2);
         AuthRouteHandler authRouteHandler = new AuthRouteHandler(oauth2);
 
-        router.post("/login").produces("application/json").handler(loginRouteHandler::login);
+        router.post("/login").produces("application/json").handler(loginRouteHandler::login); //TODO: Remove for production. Only for demo propose!!!
         router.route("/api/*").handler(authRouteHandler::authenticated);
         router.get("/api/groups").handler(groupRouteHandler::getAll);
 
