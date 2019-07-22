@@ -1,0 +1,24 @@
+
+<mat-card fxFlex="30" fxFlexOffset="35">
+    <mat-card-header>
+      <mat-card-title>Login</mat-card-title>
+      <mat-card-subtitle>(Use only for demo)</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <form [formGroup]="loginForm" fxLayout="column" fxLayoutAlign="start center" class="login-form" (submit)="login(loginForm.value)">
+            <mat-form-field>
+              <input matInput placeholder="User" formControlName="username">
+            </mat-form-field>
+
+            <mat-form-field>
+              <input matInput placeholder="Password" type="password" formControlName="password">
+            </mat-form-field>
+        </form>
+    </mat-card-content>
+    <mat-card-actions>
+      <div fxLayout="row" fxLayoutAlign="end center">
+          <button mat-button [disabled]="!loginForm.valid" (click)="login(loginForm.value)">Login</button>
+      </div>
+    </mat-card-actions>
+  </mat-card>
+

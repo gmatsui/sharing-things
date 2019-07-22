@@ -1,0 +1,86 @@
+FR
+1. Given an Contributor when access the application then he can see the list of Assets from the Contributor Groups that he belong.
+2. Given an Contributor and a new asset and a groups of contacts to shared the object and a group name to identify the Contributor groups when the Contributor request the creation of the contributor groups then the Contributor has a new item and belong to a Contributor group
+3. Given an Contributor (A) that require an shared asset and other Contributor (B) from the same Contributor Groups has the Asset when the Contributor (A) request the Asset then the other Contributor (B) receive a notification of the request.
+4. Given an Contributor and given a Contributor Groups and given a Contact when the Contributor include the Contact then the Contact belong in Contritubor and can see the asset in the group.
+5. Given an Contributor and given a new object to be shared when the Contributor add the new Asset then the other Contributor in the Contributor group can see the new Asset.
+6. Given an Contributor that require an Asset in the future when reserved the Asset for an specific range date then the Asset is reserved for that period of time.
+7. Given an Contributor that like to reserve an Asset when check the
+
+NFR
+We expect a concurrency of 50 users (24/7) with an average user operation duration of 10 minutes.
+All the log should be centralize
+Security access
+
+
+docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+
+
+
+https://dzone.com/articles/local-continuous-delivery-environment-with-docker
+Jenkin Master
+docker run -d --name jenkins -p 38080:8080 -p 50000:50000 jenkins/jenkins:lts
+admin Test123456
+
+
+docker run -p 9080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=Test123456 jboss/keycloak
+
+
+router.route("/api/whiskies*").handler(BodyHandler.create());
+router.post("/api/whiskies").handler(this::addOne);
+
+Resources:
+https://dzone.com/articles/asynchronous-microservices-with-vertx
+http://vertx.io/docs/guide-for-java-devs/
+http://vertx.io/blog/automatic-redeployment-in-eclipse-ide/
+https://github.com/dano/vertx-lombok/blob/master/pom.xml
+https://github.com/vert-x3/vertx-service-proxy
+https://github.com/vert-x3/vertx-awesome#microservices
+https://blog.teemo.co/vertx-in-production-d5ca9e89d7c6
+https://vertx.io/docs/vertx-web-api-service/java/
+https://vertx.io/docs/vertx-core/java/#event_bus
+https://developers.redhat.com/blog/2018/04/09/accessing-data-reactive-way/
+https://stackoverflow.com/questions/5170620/unable-to-use-intellij-with-a-generated-sources-folder
+
+https://github.com/vert-x3/vertx-auth/tree/master/vertx-auth-oauth2
+https://medium.com/@alexpitacci/vert-x-and-keycloak-working-together-9d459a5ebd9e
+
+http://paulbakker.io/java/jwt-keycloak-angular2/
+https://help.vtex.com/tutorial/creating-an-oauth2-authentication--21LbTSTgag4MsuisQsyIm6
+
+GET /api/assets
+GET /api/contact
+
+
+198173606678-50otojhsijisqjohslhk2smfe01es718.apps.googleusercontent.com
+
+QfiN83xc-cuZ_CYBquz-WekY
+
+GET /api/group
+GET /api/group/{groupId}/assets
+POST /api/group
+
+
+contact: {
+    id: string
+    nick: string
+    mail: string
+    cel: string
+}
+
+assets: {
+    id: string
+    name: string
+    description: string
+}
+
+group: {
+     id: string
+     name: string,
+     description: string
+     assets: []
+     contacts: []
+}
+
+
+https://accounts.google.com/o/oauth2/auth?redirect_uri=http://localhost:8080&scope=https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&access_type=offline&response_type=code&client_id=198173606678-50otojhsijisqjohslhk2smfe01es718.apps.googleusercontent.com

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5893f0ac-ad9b-45e9-a981-8136a738a64a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/doc/sharing-things.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/sharing-things.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__com_github_mauricio_db_async_common_2_12_0_2_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__com_github_mauricio_mysql_async_2_12_0_2_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__com_github_mauricio_postgresql_async_2_12_0_2_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_netty_netty_buffer_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_netty_netty_codec_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_netty_netty_common_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_netty_netty_handler_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_netty_netty_resolver_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_netty_netty_transport_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_vertx_vertx_auth_common_3_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_vertx_vertx_auth_oauth2_3_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_vertx_vertx_bridge_common_3_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_vertx_vertx_codegen_3_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_vertx_vertx_config_3_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_vertx_vertx_core_3_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_vertx_vertx_jdbc_client_3_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_vertx_vertx_jwt_3_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_vertx_vertx_mysql_postgresql_client_3_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_vertx_vertx_service_proxy_3_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_vertx_vertx_sql_common_3_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_vertx_vertx_unit_3_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_vertx_vertx_web_3_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_vertx_vertx_web_client_3_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__io_vertx_vertx_web_common_3_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__joda_time_joda_time_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__org_joda_joda_convert_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__org_mockito_mockito_all_2_0_0_beta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__org_mvel_mvel2_2_3_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__org_scala_lang_scala_library_2_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/README.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/docker-compose-environment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/realm-export.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/redeploy.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/redeploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/generated/com/gmats/st/group/service/GroupDatabaseServiceVertxEBProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/generated/com/gmats/st/group/service/GroupDatabaseServiceVertxProxyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/java/com/gmats/st/MainVerticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/java/com/gmats/st/common/vertx/security/OAuth2Creator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/java/com/gmats/st/common/vertx/security/OAuth2KeycloakCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/java/com/gmats/st/group/entity/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/java/com/gmats/st/group/entity/GroupQueueEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/java/com/gmats/st/group/http/HttpEndpointVerticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/java/com/gmats/st/group/http/handler/AuthRouteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/java/com/gmats/st/group/http/handler/BaseRouterHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/java/com/gmats/st/group/http/handler/GroupRouteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/java/com/gmats/st/group/http/handler/LoginRouteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/java/com/gmats/st/group/service/GroupDatabaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/java/com/gmats/st/group/service/GroupDatabaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/java/com/gmats/st/group/service/GroupDatabaseVerticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/java/com/gmats/st/group/service/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/resources/scripts/1-schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/main/resources/scripts/2-data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/test/java/com/gmats/st/group/http/HttpEndpointVerticleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/test/java/com/gmats/st/group/http/handler/AuthRouteHandlerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/test/java/com/gmats/st/group/http/handler/GroupRouteHandlerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/src/test/java/com/gmats/st/group/service/GroupDatabaseServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-api/vertx-start-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/app/common/service/auth.guard.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/app/common/service/user.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/app/home/home.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/app/home/home.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/app/home/home.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/app/home/home.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/app/login/login.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/app/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/app/login/login.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/app/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/app/login/login.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/environments/environment.ci.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/environments/environment.default.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sharing-things-ui/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="645">
+                <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sharing-things-api/docker-compose-environment.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/sharing-things-api/docker-compose-environment.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/sharing-things.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sharing-things" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sharing-things" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sharing-things" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sharing-things" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sharing-things" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sharing-things" type="462c0819:PsiDirectoryNode" />
+              <item name="sharing-things-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sharing-things-api" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="http.certificates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sharing-things-api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/doc" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5893f0ac-ad9b-45e9-a981-8136a738a64a" name="Default Changelist" comment="" />
+      <created>1563761814094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563761814094</updated>
+      <workItem from="1563761815422" duration="76000" />
+      <workItem from="1563761922907" duration="1493000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1569000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22603719" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.6060241" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="645">
+            <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharing-things-api/docker-compose-environment.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

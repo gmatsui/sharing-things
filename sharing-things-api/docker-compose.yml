@@ -1,0 +1,65 @@
+version: '3'
+
+networks:
+  backend-network:
+    driver: bridge
+volumes:
+  postgres_data:
+    driver: local
+  app_data:
+    driver: local
+
+services:
+  postgres:
+    image: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: keycloak
+      POSTGRES_PASSWORD: password
+    networks:
+      - backend-network
+  keycloak:
+    image: jboss/keycloak
+    environment:
+      DB_VENDOR: postgres
+      DB_ADDR: postgres
+      DB_USER: keycloak
+      DB_SCHEMA: public
+      DB_PASSWORD: password
+      KEYCLOAK_USER: admin
+      KEYCLOAK_PASSWORD: Test123456
+    ports:
+      - 8080:8080
+    depends_on:
+      - postgres
+    networks:
+      - backend-network
+
+  application_db:
+    image: postgres
+    volumes:
+      - app_data:/var/lib/postgresql/data
+      - ./src/main/resources/scripts:/docker-entrypoint-initdb.d/
+    environment:
+      POSTGRES_DB: sharing_things
+      POSTGRES_USER: nonprod_user
+      POSTGRES_PASSWORD: unsecure_password
+      PGPORT: 15432
+    ports:
+      - 15432:15432
+    networks:
+      - backend-network
+  sharing-thing-api:
+    build:
+      context: .
+      args:
+        DB_HOST: application_db
+        OAUTH_HOST: keycloak
+    ports:
+      - 8090:8090
+    depends_on:
+      - application_db
+      - keycloak
+    networks:
+      - backend-network

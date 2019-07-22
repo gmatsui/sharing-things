@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bdcf8071-cabf-411a-aee6-bf1ee7ddd2dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmats/st/MainVerticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmats/st/common/vertx/security/OAuth2Creator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmats/st/common/vertx/security/OAuth2KeycloakCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmats/st/group/entity/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmats/st/group/entity/GroupQueueEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/HttpEndpointVerticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/handler/AuthRouteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/handler/BaseRouterHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/handler/GroupRouteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/handler/LoginRouteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmats/st/group/service/GroupDatabaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmats/st/group/service/GroupDatabaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmats/st/group/service/GroupDatabaseVerticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmats/st/group/service/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/1-schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/2-data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmats/st/group/http/HttpEndpointVerticleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmats/st/group/http/handler/AuthRouteHandlerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmats/st/group/http/handler/GroupRouteHandlerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmats/st/group/service/GroupDatabaseServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redeploy.bat" beforeDir="false" afterPath="$PROJECT_DIR$/redeploy.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redeploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/redeploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/vertx/starter/MainVerticle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/vertx/starter/MainVerticleTest.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.adoc">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="53" column="10" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="125" selection-start-line="19" selection-start-column="125" selection-end-line="19" selection-end-column="125" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getNow</find>
+      <find>get</find>
+      <find>web</find>
+      <find>main.verticle</find>
+      <find>compiler</find>
+      <find>build-helper-maven-plugin</find>
+      <find>register</find>
+      <find>token</find>
+      <find>getToken</find>
+      <find>Intern</find>
+      <find>interna</find>
+      <find>OAuth2Auth</find>
+      <find>createHttpClient</find>
+      <find>authenticated</find>
+      <find>add</find>
+      <find>oauth2</find>
+      <find>accessToken</find>
+      <find>do</find>
+      <find>result</find>
+      <find>mockTokenIntropector</find>
+      <find>accessTokenMock</find>
+      <find>future</find>
+      <find>jboss/keycloak</find>
+      <find>36824ab0-2322-4c7e-9ad3-cc6c74b78fd1</find>
+      <find>HttpEndpointVerticle</find>
+      <find>log</find>
+      <find>moc</find>
+      <find>postgres</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/verticle/MainVerticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/verticle/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/verticle/GroupDatabaseVerticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/verticle/GroupDatabaseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/verticle/GroupHttpVerticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/verticle/GroupDatabaseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/group/verticle/GroupDatabaseVerticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/group/entity/GroupQueueEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/group/service/GroupDatabaseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/group/service/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/group/entity/Group.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/group/service/GroupDatabaseVerticle.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/note.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/CommonHttp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/group/service/OAuth2Factory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/common/OAuth2Factory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/common/security/OAuth2Factory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/common/security/OAuth2Service.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/common/vertx/security/OAuth2Service.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/common/vertx/security/OAuth2ServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/common/vertx/security/OAuth2KeycloakImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/common/vertx/security/OAuth2Keycloak.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/common/vertx/security/OAuth2KeycloakImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmats/st/verticle/GroupHttpVerticleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/CommonHttpVerticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/AuthHttpVerticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/AbstractRouterHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/GroupRouteHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/LoginRouteHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/GroupHttpVerticle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmats/st/group/service/GroupDatabaseServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmats/st/group/http/handler/GroupRouteHandlerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/handler/AuthRouteHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmats/st/group/http/handler/AuthRouteHandlerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmats/st/group/http/HttpEndpointVerticleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/group/service/GroupDatabaseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/MainVerticle.java" />
+        <option value="$PROJECT_DIR$/docker-compose.backk.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/common/vertx/security/OAuth2KeycloakCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/HttpEndpointVerticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/handler/LoginRouteHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/handler/GroupRouteHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/docker/Dockerfile" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/scripts/1-schema.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/scripts/2-data.sql" />
+        <option value="$PROJECT_DIR$/docker-compose-oauth.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/vertx-start-project.iml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_30_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_30_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_30_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_30_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_30_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_30_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_30_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_30_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_30_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_30_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_30_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_30_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_core_3_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_unit_3_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_auth_common_3_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_bridge_common_3_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_web_common_3_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_mauricio_db_async_common_2_12_0_2_21.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_mauricio_mysql_async_2_12_0_2_21.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_mauricio_postgresql_async_2_12_0_2_21.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_config_3_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_jdbc_client_3_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_mysql_postgresql_client_3_7_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_sql_common_3_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_joda_joda_convert_1_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_12_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_service_proxy_3_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_codegen_3_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mvel_mvel2_2_3_1_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_auth_oauth2_3_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_jwt_3_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_web_3_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_vertx_vertx_web_client_3_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_2_0_0_beta.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vertx-start-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sharing-things-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vertx-start-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sharing-things-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vertx-start-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sharing-things-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vertx-start-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sharing-things-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/scripts" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gmats.st.group" />
+      <recent name="com.gmats.st.group.http" />
+      <recent name="com.gmats.st" />
+      <recent name="com.gmats.st.group.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gmats.st.group.http.handler" />
+      <recent name="com.gmats.st.group.http" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/scripts" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.com.gmats.st in vertx-start-project">
+    <configuration name="Local" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="io.vertx.core.Launcher" />
+      <module name="vertx-start-project" />
+      <option name="PROGRAM_PARAMETERS" value="run com.gmats.st.MainVerticle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpEndpointVerticleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vertx-start-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmats.st.group.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmats.st.group.http" />
+      <option name="MAIN_CLASS_NAME" value="com.gmats.st.group.http.HttpEndpointVerticleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpEndpointVerticleTest.test_getAllGroup_withoutToken_return_status_UNAUTHORIZED" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vertx-start-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmats.st.group.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmats.st.group.http" />
+      <option name="MAIN_CLASS_NAME" value="com.gmats.st.group.http.HttpEndpointVerticleTest" />
+      <option name="METHOD_NAME" value="test_getAllGroup_withoutToken_return_status_UNAUTHORIZED" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpEndpointVerticleTest.test_start_configureAllTheRoutes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vertx-start-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmats.st.group.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmats.st.group.http" />
+      <option name="MAIN_CLASS_NAME" value="com.gmats.st.group.http.HttpEndpointVerticleTest" />
+      <option name="METHOD_NAME" value="test_start_configureAllTheRoutes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.gmats.st in vertx-start-project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vertx-start-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmats.st.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmats.st" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Local" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="JUnit.HttpEndpointVerticleTest.test_start_configureAllTheRoutes" />
+      <item itemvalue="JUnit.HttpEndpointVerticleTest" />
+      <item itemvalue="JUnit.HttpEndpointVerticleTest.test_getAllGroup_withoutToken_return_status_UNAUTHORIZED" />
+      <item itemvalue="JUnit.com.gmats.st in vertx-start-project" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.com.gmats.st in vertx-start-project" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="JUnit.HttpEndpointVerticleTest" />
+        <item itemvalue="JUnit.HttpEndpointVerticleTest.test_getAllGroup_withoutToken_return_status_UNAUTHORIZED" />
+        <item itemvalue="JUnit.HttpEndpointVerticleTest.test_start_configureAllTheRoutes" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bdcf8071-cabf-411a-aee6-bf1ee7ddd2dc" name="Default Changelist" comment="" />
+      <created>1563325187715</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563325187715</updated>
+      <workItem from="1563325190520" duration="40274000" />
+      <workItem from="1563487820461" duration="2192000" />
+      <workItem from="1563533441454" duration="26011000" />
+      <workItem from="1563746617955" duration="10291000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="HttpEndpointVerticleTest - 2019.07.21 at 17h 31m 27s.xml">
+      <configuration name="HttpEndpointVerticleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpEndpointVerticleTest - 2019.07.21 at 17h 33m 29s.xml">
+      <configuration name="HttpEndpointVerticleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpEndpointVerticleTest - 2019.07.21 at 17h 34m 50s.xml">
+      <configuration name="HttpEndpointVerticleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpEndpointVerticleTest - 2019.07.21 at 17h 37m 17s.xml">
+      <configuration name="HttpEndpointVerticleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpEndpointVerticleTest_test_getAllGroup_withoutToken_return_status_UNAUTHORIZED - 2019.07.21 at 17h 37m 37s.xml">
+      <configuration name="HttpEndpointVerticleTest.test_getAllGroup_withoutToken_return_status_UNAUTHORIZED" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpEndpointVerticleTest - 2019.07.21 at 17h 37m 43s.xml">
+      <configuration name="HttpEndpointVerticleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpEndpointVerticleTest - 2019.07.21 at 17h 38m 03s.xml">
+      <configuration name="HttpEndpointVerticleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpEndpointVerticleTest - 2019.07.21 at 17h 38m 09s.xml">
+      <configuration name="HttpEndpointVerticleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_gmats_st_in_vertx-start-project - 2019.07.21 at 20h 31m 15s.xml">
+      <configuration name="com.gmats.st in vertx-start-project" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_gmats_st_in_vertx-start-project - 2019.07.21 at 20h 32m 09s.xml">
+      <configuration name="com.gmats.st in vertx-start-project" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="78768000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25180724" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
+      <window_info anchor="bottom" id="Docker" order="7" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29638556" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3297568" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/vertx/vertx-auth-oauth2/3.7.0/vertx-auth-oauth2-3.7.0.jar!/io/vertx/ext/auth/oauth2/impl/OAuth2API.class</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gmats/st/common/vertx/security/OAuth2KeycloakCreator.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="((OAuth2UserImpl) routingContext.user())" language="JAVA" />
+        <watch expression="routingContext.response()" language="JAVA" />
+        <watch expression="when(httpServerResponseMock.setStatusCode(any()))" language="JAVA" />
+        <watch expression="when(httpServerResponseMock.setStatusCode(anyInt()))" language="JAVA" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="userAsyncResult.cause()" language="JAVA" />
+        <watch expression="userAsyncResult.cause().getMessage().contains(&quot;invalid_grant&quot;)" language="JAVA" />
+        <watch expression="var5" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>var5</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>when(httpServerResponseMock.setStatusCode(anyInt()))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>when(httpServerResponseMock.setStatusCode(any()))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>routingContext.response()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((OAuth2UserImpl) routingContext.user())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>userAsyncResult.cause().getMessage().contains(&quot;invalid_grant&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>userAsyncResult.cause().getMessage()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>userAsyncResult.cause()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.7.0/vertx-web-3.7.0.jar!/io/vertx/ext/web/handler/CorsHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.7.0/vertx-core-3.7.0.jar!/io/vertx/core/Future.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/AuthHttpVerticle.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/CommonHttpVerticle.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmats/st/group/service/GroupDatabaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.7.0/vertx-core-3.7.0.jar!/io/vertx/core/http/HttpServerResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-auth-oauth2/3.7.0/vertx-auth-oauth2-3.7.0.jar!/io/vertx/ext/auth/oauth2/AccessToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="39" column="15" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-all/2.0.0-beta/mockito-all-2.0.0-beta.jar!/org/mockito/ArgumentCaptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmats/st/group/http/handler/GroupRouteHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.7.0/vertx-web-3.7.0.jar!/io/vertx/ext/web/RoutingContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.7.0/vertx-core-3.7.0.jar!/io/vertx/core/AsyncResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.7.0/vertx-core-3.7.0.jar!/io/vertx/core/http/HttpHeaders.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmats/st/group/http/handler/AuthRouteHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/requests/FilterRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.7.0/vertx-core-3.7.0.jar!/io/vertx/core/Handler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-unit/3.7.0/vertx-unit-3.7.0.jar!/io/vertx/ext/unit/TestContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="63" column="27" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.7.0/vertx-web-3.7.0.jar!/io/vertx/ext/web/impl/RoutingContextImplBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-auth-common/3.7.0/vertx-auth-common-3.7.0.jar!/io/vertx/ext/auth/AuthProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="63" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmats/st/common/vertx/security/OAuth2Creator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmats/st/group/service/GroupDatabaseServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmats/st/group/http/HttpEndpointVerticleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1529">
+          <caret line="166" column="54" selection-start-line="166" selection-start-column="54" selection-end-line="166" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmats/st/group/entity/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/handler/BaseRouterHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmats/st/group/service/GroupDatabaseVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmats/st/group/service/GroupDatabaseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" column="110" selection-start-line="32" selection-start-column="110" selection-end-line="32" selection-end-column="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-auth-oauth2/3.7.0/vertx-auth-oauth2-3.7.0.jar!/io/vertx/ext/auth/oauth2/OAuth2Auth.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-auth-oauth2/3.7.0/vertx-auth-oauth2-3.7.0.jar!/io/vertx/ext/auth/oauth2/providers/KeycloakAuth.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-auth-oauth2/3.7.0/vertx-auth-oauth2-3.7.0.jar!/io/vertx/ext/auth/oauth2/impl/OAuth2AuthProviderImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="165" column="16" selection-start-line="165" selection-start-column="16" selection-end-line="165" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-auth-oauth2/3.7.0/vertx-auth-oauth2-3.7.0.jar!/io/vertx/ext/auth/oauth2/impl/OAuth2API.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmats/st/common/vertx/security/OAuth2KeycloakCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmats/st/verticle/MainVerticleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/handler/AuthRouteHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/handler/LoginRouteHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-auth-oauth2/3.7.0/vertx-auth-oauth2-3.7.0.jar!/io/vertx/ext/auth/oauth2/impl/OAuth2UserImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="24" column="80" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/HttpEndpointVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmats/st/group/http/handler/GroupRouteHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/docker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="100" column="24" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmats/st/MainVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="53" column="49" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeploy.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/scripts/1-schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/scripts/2-data.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.adoc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="125" selection-start-line="19" selection-start-column="125" selection-end-line="19" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="53" column="10" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>vertx-start-project</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
