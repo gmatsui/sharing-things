@@ -23,6 +23,8 @@ public class MainVerticle extends AbstractVerticle {
       if (aConfig.succeeded()) {
         log.info("Configuration loaded");
         JsonObject config = aConfig.result();
+        log.info("Config: {}", config.getString("oauth2.keycloak.auth-server-url"));
+        log.info("Config: {}", config.toString());
         this.createDatabaseVerticle(config)
                 .compose(databaseDeploymentId -> this.createGroupHttpVerticle(config)
         )
@@ -63,11 +65,19 @@ public class MainVerticle extends AbstractVerticle {
             .setConfig(new JsonObject().put("path", "config.properties"));
 
     ConfigStoreOptions environment = new ConfigStoreOptions()
+            .setOptional(true)
+            .setConfig(new JsonObject().put("raw-data", true))
             .setType("env");
+
+    ConfigStoreOptions sysconfig = new ConfigStoreOptions()
+            .setOptional(true)
+            .setConfig(new JsonObject().put("raw-data", true))
+            .setType("sys");
 
     ConfigRetrieverOptions options = new ConfigRetrieverOptions()
             .addStore(propertyFile)
-            .addStore(environment);
+            .addStore(environment)
+            .addStore(sysconfig);
 
 
     return ConfigRetriever.create(this.vertx, options);

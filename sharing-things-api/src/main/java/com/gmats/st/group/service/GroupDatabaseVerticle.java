@@ -36,9 +36,10 @@ public class GroupDatabaseVerticle extends AbstractVerticle {
 
 
     private SQLClient getJDBCClient() {
+        Double port = new Double(this.config().getString("datasource.port"));
         return PostgreSQLClient.createShared(this.vertx, new JsonObject()
                 .put("host", this.config().getString("datasource.host"))
-                .put("port", this.config().getDouble("datasource.port"))
+                .put("port", port)
                 .put("database", this.config().getString("datasource.database"))
                 .put("username", this.config().getString("datasource.user"))
                 .put("password", this.config().getString("datasource.password"))

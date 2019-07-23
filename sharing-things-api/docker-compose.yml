@@ -51,11 +51,11 @@ services:
     networks:
       - backend-network
   sharing-thing-api:
-    build:
-      context: .
-      args:
-        DB_HOST: application_db
-        OAUTH_HOST: keycloak
+    build: .
+    environment:
+      DB_HOST: application_db
+      DB_PORT: 15432
+      OAUTH_HOST: http://keycloak:8080/auth
     ports:
       - 8090:8090
     depends_on:

@@ -14,7 +14,12 @@ COPY target/$VERTICLE_FILE $VERTICLE_HOME/
 WORKDIR $VERTICLE_HOME
 ENTRYPOINT ["sh", "-c"]
 
-ARG DB_HOST
-ARG OAUTH_HOST
+ENV DB_HOST localhost
+ENV DB_PORT 15432
+ENV DB_NAME sharing_things
+ENV DB_USER nonprod_user
+ENV DB_PASSWORD unsecure_password
+ENV OAUTH_URL http://localhost:8080/auth
 
-CMD ["exec java -jar $VERTICLE_FILE -Doauth2.keycloak.auth-server-url=http://$OAUTH_HOST:8080/auth -Ddatasource.host=$DB_HOST"]
+
+CMD ["exec java -jar $VERTICLE_FILE -Doauth2.keycloak.auth-server-url=$OAUTH_URL -Ddatasource.host=$DB_HOST -Ddatasource.port=$DB_PORT -Ddatasource.database=$DB_NAME -Ddatasource.use=$DB_USER -Ddatasource.password=$DB_PASSWORD"]

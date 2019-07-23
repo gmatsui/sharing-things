@@ -1,0 +1,19 @@
+FROM vertx/vertx3
+
+ENV VERTICLE_NAME com.gmats.st.MainVerticle
+ENV VERTICLE_FILE target/sharing-things-api-1.0-SNAPSHOT.jar
+ENV VERTICLE_DEPENDENCY target/dependency
+
+ENV VERTICLE_HOME /usr/verticles
+
+ENV VERTICLE_LIB $VERTX_HOME/lib
+
+EXPOSE 8090
+
+COPY $VERTICLE_FILE $VERTICLE_HOME/
+# This require  mvn compile dependency:copy-dependencies
+COPY $VERTICLE_DEPENDENCY/* $VERTICLE_LIB/
+
+WORKDIR $VERTICLE_HOME
+ENTRYPOINT ["sh", "-c"]
+CMD ["exec vertx run $VERTICLE_NAME -cp $VERTICLE_HOME/*"]
