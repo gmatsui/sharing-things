@@ -55,7 +55,7 @@ public class HttpEndpointVerticle extends AbstractVerticle {
         router.get("/api/groups").handler(groupRouteHandler::getAll);
 
 
-        int port = config().getInteger("http.port", 8090);
+        int port = new Integer(config().getString("http.port", "8090"));
         server.requestHandler(router).listen(port, httpServerAsyncResult -> {
             if (httpServerAsyncResult.succeeded()) {
                 log.debug("Server starting in port {}", port);

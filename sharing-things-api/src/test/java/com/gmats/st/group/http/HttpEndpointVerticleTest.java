@@ -65,7 +65,7 @@ public class HttpEndpointVerticleTest {
         this.serverPort = this.getRandomPort();
         MockitoAnnotations.initMocks(this);
         when(oAuth2CreatorMock.createOAuth(any(Vertx.class))).thenReturn(this.oAuth2AuthMock);
-        DeploymentOptions options = new DeploymentOptions().setConfig(new JsonObject().put("http.port", this.serverPort));
+        DeploymentOptions options = new DeploymentOptions().setConfig(new JsonObject().put("http.port", Integer.toString(this.serverPort)));
         this.vertx.deployVerticle(new HttpEndpointVerticle(this.oAuth2CreatorMock), options, testContext.asyncAssertSuccess());
     }
 

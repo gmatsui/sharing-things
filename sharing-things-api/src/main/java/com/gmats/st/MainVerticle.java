@@ -62,7 +62,7 @@ public class MainVerticle extends AbstractVerticle {
     ConfigStoreOptions propertyFile = new ConfigStoreOptions()
             .setType("file")
             .setFormat("properties")
-            .setConfig(new JsonObject().put("path", "config.properties"));
+            .setConfig(new JsonObject().put("path", "config.properties").put("raw-data", true));
 
     ConfigStoreOptions environment = new ConfigStoreOptions()
             .setOptional(true)
